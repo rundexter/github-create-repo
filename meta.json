@@ -4,23 +4,74 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "homepage",
+            "title":"Homepage"
+        },
+        {
+            "id": "private",
+            "title":"Private"
+        },
+        {
+            "id": "has_issues",
+            "title":"Has issues"
+        },
+        {
+            "id": "has_wiki",
+            "title":"Has wiki"
+        },
+        {
+            "id": "has_downloads",
+            "title":"Has downloads"
+        },
+        {
+            "id": "team_id",
+            "title":"Team id"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "owner",
+            "title":"Owner"
+        },
+        {
+            "id": "full_name",
+            "title":"Full name"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "html_url",
+            "title":"Html url"
+        },
+        {
+            "id": "homepage",
+            "title":"Homepage"
+        },
+        {
+            "id": "default_branch",
+            "title":"Default branch"
+        },
+        {
+            "id": "created_at",
+            "title":"Created at"
         }
-      */
     ],
-    "title": "GitHub Create Repo" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "GitHub Create Repo" 
 }
