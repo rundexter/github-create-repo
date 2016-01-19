@@ -72,6 +72,9 @@
             "title":"Created at"
         }
     ],
+    "providers": [{
+        "name": "github"
+    }],
     "icon": "github",
     /* Required.A display name for the module */
     "title": "GitHub Create Repo" 
